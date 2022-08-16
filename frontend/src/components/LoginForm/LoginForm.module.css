@@ -1,0 +1,52 @@
+.paperStyle {
+  padding-top: 4%;
+  padding-bottom: 11%;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.textWidth {
+  width: 100%;
+}
+
+.rowGap {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.inputLabel {
+  margin-bottom: 1%;
+}
+
+.loginButtonGap {
+  margin-top: 2% !important;
+}
+
+.loginButton {
+  color: #ffffff !important;
+  background-color: #d288a2 !important;
+  height: 50px !important;
+  width: 100% !important;
+}
+
+.loginButton:hover {
+  background-color: #d288a2 !important;
+  opacity: 80% !important;
+}
+
+.signupButtonGap {
+  margin-top: 4% !important;
+  margin-bottom: 2% !important;
+}
+
+.signUpButton {
+  color: #415a77 !important;
+  background-color: #ffffff !important;
+  height: 50px !important;
+  width: 100% !important;
+}
+
+.signUpButton:hover {
+  background-color: #ffffff !important;
+  opacity: 80% !important;
+}

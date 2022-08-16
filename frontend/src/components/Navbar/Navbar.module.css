@@ -1,0 +1,29 @@
+.navColor {
+  background-color: var(--NAVBAR) !important;
+}
+
+.nav {
+  position: absolute;
+  right: 2%;
+}
+
+.navIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleSpacing {
+  padding: 0px;
+  margin: 0px;
+  font-size: small;
+}
+
+.selected {
+  text-decoration: underline !important;
+  text-underline-offset: 50%;
+}
+
+.logo {
+  height: 55px;
+}

@@ -1,0 +1,113 @@
+:root {
+  /* Colour Theme */
+  --NAVBAR: #27344d;
+  --MIDBLUE: #415a77;
+  /* Button colours */
+  --PINK: #efafc6;
+  --GREEN: #67ad5b;
+  --RED: #e15241;
+  --ORANGE: #f9ab55;
+  /* Text message */
+  --GREY: #e7e7e7;
+  --DEEPGREEN: #39c16c;
+  --CHATCONTAINER: #415a77;
+  --WHITE: #ffffff;
+  /* URL Links */
+  --DEEPBLUE: #0277bd;
+  --LIGHTBLUE: #03a9f4;
+  /* FORUM */
+  --DULLGREY: #616161;
+}
+
+/* Alignment */
+.empty-navbar-gap {
+  margin-top: 10%;
+}
+
+.center-text {
+  text-align: center;
+}
+
+/* Font Settings */
+.primary-font {
+  color: var(--WHITE);
+}
+
+.text-transform {
+  text-transform: none;
+}
+
+/* Buttons */
+.green-button {
+  color: var(--WHITE) !important;
+  background-color: var(--GREEN) !important;
+  width: 250px !important;
+  margin: 3% !important;
+}
+
+.orange-button {
+  color: var(--WHITE) !important;
+  background-color: var(--ORANGE) !important;
+  width: 250px !important;
+}
+
+.small-orange-button {
+  margin-top: 1% !important;
+  background-color: var(--ORANGE) !important;
+}
+
+.red-button {
+  color: var(--WHITE) !important;
+  background-color: var(--RED) !important;
+  width: 250px !important;
+  margin: 3% !important;
+}
+
+.blue-button {
+  color: var(--WHITE) !important;
+  background-color: var(--LIGHTBLUE) !important;
+  width: 250px !important;
+  margin: 3% !important;
+}
+
+.sideDesignLeft {
+  position: absolute;
+  left: 0;
+  transform: scaleX(-1);
+  height: 90%;
+}
+
+.sideDesignRight {
+  position: absolute;
+  right: 0;
+  height: 90%;
+}
+
+/* Forum */
+.scrollable {
+  max-height: 60vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Side Design */
+@media screen and (max-width: 1550px) {
+  .sideDesignLeft {
+    display: none;
+  }
+
+  .sideDesignRight {
+    display: none;
+  }
+}
+
+/* Href Links */
+.hrefLink {
+  cursor: pointer;
+  color: var(--DEEPBLUE);
+  text-decoration: underline;
+}
+
+.hrefLink:hover {
+  color: var(--LIGHTBLUE);
+}

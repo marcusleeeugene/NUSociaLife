@@ -1,0 +1,15 @@
+.paperPadding {
+  padding: 3%;
+}
+
+.commentContainer {
+  padding: 3%;
+}
+
+.cardContent {
+  padding-bottom: 1% !important;
+}
+
+.backButton {
+  margin-top: 2%;
+}

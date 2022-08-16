@@ -1,0 +1,16 @@
+.background {
+  background-color: var(--DULLGREY) !important;
+  height: 100%;
+}
+
+.upvoteButton {
+  color: var(--GREEN) !important;
+}
+
+.downvoteButton {
+  color: var(--RED) !important;
+}
+
+.voteColor {
+  color: var(--WHITE) !important;
+}
